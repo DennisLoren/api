@@ -7,32 +7,32 @@ An API simplifies processes by facilitating smooth data handling, real-time inte
 
 A "Student Name Management API" is an API designed to facilitate the management of student names within an educational system, such as a school, college, or university. It would allow other software systems or applications to interact with and manipulate student names according to the rules and functionalities defined by the API.
 
-Purpose:
+### Purpose
 The primary purpose of this API is to provide educational institutions and platforms with a reliable and efficient means of managing student name data. By focusing on the core student name records, specifically first name (fname) and last name (lname), it simplifies the administrative tasks associated with student enrollment, directory management, profile updates, and de-enrollment. This purpose aligns with the need to ensure the accuracy of student name records for generating academic reports, tracking attendance, and enhancing overall data management in educational systems.
 
-Key Features:
+### Key Features
 
 A simple Student Name Management API typically involves basic operations to manage and retrieve information about students, specifically their first name and last name. Below are the key features of such an API, along with brief descriptions:
 
-1. Student Creation
+a. Student Creation
   This feature allows you to add new students to the system. You can provide the first name and last name of the student, creating a new student record in the database.
 
-2. Student Retrieval
+b. Student Retrieval
   With this feature, you can retrieve student information. This is is essential for accessing and displaying student details when needed.
   
-3. Update Student Names
+c. Update Student Names
    This feature enables you to modify the first name and last name of a student in the system. It's useful for handling scenarios like name changes or corrections in the student records.
 
-4. Delete Student
+d. Delete Student
   Delete Student allows you to remove a student's record from the database based on their ID. It's a critical feature for managing student data and maintaining data integrity.
 
-5. Search and Filter
+e. Search and Filter
   You can search and filter students based on criteria like their first name, last name, or a combination of both. This functionality helps in locating specific students within a large dataset.
 
-6. List Students
+f. List Students
    This feature provides an overview of all students in the database, showing their first names and last names. It's a helpful way to see the complete list of students.
 
-7. Error Handling
+g. Error Handling
    Error Handling is essential for providing clear error messages and status codes in case of invalid requests or server issues. It enhances the API's usability and reliability.
    
 ## API Endpoints
@@ -116,19 +116,49 @@ data (object or null): This field contains the data returned as part of the API 
 
 Success Response
 Status: 200 OK
-JSON Example:
 
+b. JSON Payload postName
 
+{
+         "status":"success","data":["lname":"dela cruz","fname":"juan","lname":"tacubanza","fname":"dennis"]
+}
 
+status (string): This field represents the status of the API response, set to "success" to indicate that the API request was processed successfully.
 
- 
+data (array of objects): This field contains an array of objects where each object represents a student's information, including their first name (fname) and last name (lname).
 
+Success Response
+Status: 200 OK
+
+c. JSON Payload updateName
+
+{
+         "status":"success","data":null
+}
+
+status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
+
+data (null): This field contains null, meaning that there is no specific data associated with this success response. It's indicating that the request was successful, but there is no additional data to be returned in this case.
+
+Success Response:
+Status: 200 OK
+
+d. JSON Payload deleteName
+
+{
+         "status":"success","data":null
+}
+
+status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
+
+data (null): This field contains null, meaning that there is no specific data associated with this success response. It's indicating that the request to de-enroll or delete a student was successful, but there is no additional data to be returned in this case.
+
+Status: 200 OK
 
 ## Usage
 
 
-Provide code
-examples or instructions on how to use your API.
+Provide code examples or instructions on how to use your API.
 
 
  
