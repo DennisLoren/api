@@ -14,14 +14,17 @@ The primary purpose of this API is to provide educational institutions and platf
 
 A simple Student Name Management API typically involves basic operations to manage and retrieve information about students, specifically their first name and last name. Below are the key features of such an API, along with brief descriptions:
 
-a. Add Student Name: 
+a. Add Student Name
 - This feature allows you to add new students to the system. You can provide the first name and last name of the student, creating a new student record in the database.
 
-b. Student Retrieval: With this feature, you can retrieve student information. This is is essential for accessing and displaying student details when needed.
+b. Student Retrieval
+- With this feature, you can retrieve student information. This is is essential for accessing and displaying student details when needed.
   
-c. Update Student Name: This feature enables you to modify the first name and last name of a student in the system. It's useful for handling scenarios like name changes or corrections in the student records.
+c. Update Student Name
+- This feature enables you to modify the first name and last name of a student in the system. It's useful for handling scenarios like name changes or corrections in the student records.
 
-d. Delete Student Name: Delete Student allows you to remove a student's record from the database based on their ID. It's a critical feature for managing student data and maintaining data integrity.
+d. Delete Student Name
+- Delete Student allows you to remove a student's record from the database based on their ID. It's a critical feature for managing student data and maintaining data integrity.
    
 ## API Endpoints
 Here are the API endpoints for the Student Name Management:
@@ -62,11 +65,11 @@ a. JSON Payload postName
    "fname":"dennis"
 }
 
-Both lname and fname are required fields. They must be included in the request payload to successfully enroll a new student. These fields ensure that the student's name is accurately recorded in the system.
+- Both lname and fname are required fields. They must be included in the request payload to successfully enroll a new student. These fields ensure that the student's name is accurately recorded in the system.
 
 b. JSON Payload printName
 
-In the case of the printName endpoint, there is usually no request payload because it is designed to retrieve data, and it doesn't require any specific input parameters in the request body.  As it's a read-only operation, the printName endpoint typically doesn't require any specific parameters in the request payload. 
+- In the case of the printName endpoint, there is usually no request payload because it is designed to retrieve data, and it doesn't require any specific input parameters in the request body.  As it's a read-only operation, the printName endpoint typically doesn't require any specific parameters in the request payload. 
 
 c. JSON Payload updateName
 
@@ -76,7 +79,7 @@ c. JSON Payload updateName
    "fname":"juan"
 }
 
-The request payload serves as the data you send to the updateName endpoint to update a specific student's profile. It includes the student's unique identifier (ID) along with the updated first name and last name. This ensures that the student's profile information is accurately modified in the system.
+- The request payload serves as the data you send to the updateName endpoint to update a specific student's profile. It includes the student's unique identifier (ID) along with the updated first name and last name. This ensures that the student's profile information is accurately modified in the system.
 
 d. JSON Payload deleteName
 
@@ -84,7 +87,7 @@ d. JSON Payload deleteName
   "id":1
 }
 
-This request payload is used for the deleteName endpoint to identify the specific student record that you want to remove from the system. The id field serves as the key to target the correct student for de-enrollment.
+- This request payload is used for the deleteName endpoint to identify the specific student record that you want to remove from the system. The id field serves as the key to target the correct student for de-enrollment.
 
 ## Response Payload
 
@@ -94,12 +97,9 @@ a. JSON Payload postName
          "status":"success","data":null
 }
 
-status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
-
-data (object or null): This field contains the data returned as part of the API response. In this example, it is set to null, meaning that there is no specific data associated with this success response.
-
-Success Response
-Status: 200 OK
+- status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
+- data (object or null): This field contains the data returned as part of the API response. In this example, it is set to null, meaning that there is no specific data associated with this success response.
+- Status: 200 OK
 
 b. JSON Payload postName
 
@@ -107,12 +107,9 @@ b. JSON Payload postName
          "status":"success","data":["lname":"dela cruz","fname":"juan","lname":"tacubanza","fname":"dennis"]
 }
 
-status (string): This field represents the status of the API response, set to "success" to indicate that the API request was processed successfully.
-
-data (array of objects): This field contains an array of objects where each object represents a student's information, including their first name (fname) and last name (lname).
-
-Success Response
-Status: 200 OK
+- status (string): This field represents the status of the API response, set to "success" to indicate that the API request was processed successfully.
+- data (array of objects): This field contains an array of objects where each object represents a student's information, including their first name (fname) and last name (lname).
+- Status: 200 OK
 
 c. JSON Payload updateName
 
@@ -120,12 +117,9 @@ c. JSON Payload updateName
          "status":"success","data":null
 }
 
-status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
-
-data (null): This field contains null, meaning that there is no specific data associated with this success response. It's indicating that the request was successful, but there is no additional data to be returned in this case.
-
-Success Response:
-Status: 200 OK
+- status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
+- data (null): This field contains null, meaning that there is no specific data associated with this success response. It's indicating that the request was successful, but there is no additional data to be returned in this case.
+- Status: 200 OK
 
 d. JSON Payload deleteName
 
@@ -133,11 +127,9 @@ d. JSON Payload deleteName
          "status":"success","data":null
 }
 
-status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
-
-data (null): This field contains null, meaning that there is no specific data associated with this success response. It's indicating that the request to de-enroll or delete a student was successful, but there is no additional data to be returned in this case.
-
-Status: 200 OK
+- status (string): This field represents the status of the API response. In this example, it's set to "success," indicating that the API request was processed successfully.
+- data (null): This field contains null, meaning that there is no specific data associated with this success response. It's indicating that the request to de-enroll or delete a student was successful, but there is no additional data to be returned in this case.
+- Status: 200 OK
 
 ## Usage
 
