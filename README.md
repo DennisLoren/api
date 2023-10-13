@@ -35,7 +35,7 @@ Here are the API endpoints for the Student Name Management:
   
 2. Retrieve Name (GET/printName) http://127.0.0.1/api/public/printName
 - Function:
- - This endpoint retrieves a comprehensive directory of all enrolled students, allowing administrators to access and view student information.
+  - This endpoint retrieves a comprehensive directory of all enrolled students, allowing administrators to access and view student information.
 - Required Parameters: 
  - None. This is typically a read-only operation.
 
