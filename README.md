@@ -36,22 +36,22 @@ Here are the API endpoints for the Student Name Management:
 2. Retrieve Name (GET/printName) http://127.0.0.1/api/public/printName
 - Function:
   - This endpoint retrieves a comprehensive directory of all enrolled students, allowing administrators to access and view student information.
-- Required Parameters: 
- - None. This is typically a read-only operation.
+- Required Parameters:
+  - None. This is typically a read-only operation.
 
 3. Update Name (POST/updateName) http://127.0.0.1/api/public/updateName
-- Function: 
- - This endpoint allows administrators to update a student's profile information, including their first name and last name, ensuring that student records are accurate and up-to-date.
+- Function:
+  - This endpoint allows administrators to update a student's profile information, including their first name and last name, ensuring that student records are accurate and up-to-date.
 - Required Parameters:
- - id: The unique identifier of the student whose profile is being updated.
- - lname: The updated last name of the student.
- - fname: The updated first name of the student.
+  - id: The unique identifier of the student whose profile is being updated.
+  - lname: The updated last name of the student.
+  - fname: The updated first name of the student.
 
 4. Delete Name (POST/deleteName) http://127.0.0.1/api/public/deleteName
-- Function: 
- - This endpoint is used for de-enrolling a student and removing their record from the system.
+- Function:
+  - This endpoint is used for de-enrolling a student and removing their record from the system.
 - Required Parameters:
- - id: The unique identifier of the student to be de-enrolled.
+  - id: The unique identifier of the student to be de-enrolled.
 
 ## Request Payload
 
