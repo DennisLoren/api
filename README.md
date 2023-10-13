@@ -14,7 +14,8 @@ The primary purpose of this API is to provide educational institutions and platf
 
 A simple Student Name Management API typically involves basic operations to manage and retrieve information about students, specifically their first name and last name. Below are the key features of such an API, along with brief descriptions:
 
-a. Add Student Name: This feature allows you to add new students to the system. You can provide the first name and last name of the student, creating a new student record in the database.
+a. Add Student Name: 
+- This feature allows you to add new students to the system. You can provide the first name and last name of the student, creating a new student record in the database.
 
 b. Student Retrieval: With this feature, you can retrieve student information. This is is essential for accessing and displaying student details when needed.
   
