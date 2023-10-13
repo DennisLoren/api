@@ -133,36 +133,47 @@ d. JSON Payload deleteName
 
 ## Usage
 
+Step 1: Retrieve an entire repository from a hosted location via URL
+- You should initiate the process by using the following command in your command prompt or terminal: "git clone https:/DennisLoren/github.com//api.git." This command will create a local copy of the repository on your computer.
 
-Provide code examples or instructions on how to use your API.
+Step 2: Import Database
+- Open the SQLYOG and XAMPP, and then proceed to import the 'demo.sql' file into your database. This will set up the necessary database structure and data.
 
+Step 3: Create New Request
+- Once Postman is open, click the "New" button, and then select "Request" to create a new API request.
 
- 
+Step 4: Configure API Request Type and Endpoint URL
+- Start by selecting the appropriate HTTP method (e.g., POST) based on the action you want to perform. Then, input the API URL, including the specific endpoint you intend to access (e.g., "http://localhost/api/public/postName"). This configuration is crucial for defining the nature and destination of your API request.
 
+Step 5: Define Request Payload
+- When utilizing a POST or PUT request to add or update data, navigate to the "Body" tab. Select the "raw" data format, typically in JSON, and input the JSON payload in the request body. This step is essential for providing the data you want to send with your request.
+
+Step 6: Send the Request
+- To perform the API request, simply click the "Send" button. This action will initiate the request and communicate with the API endpoint.
+
+Step 7: View the Response
+- After sending the request, you can view the API's response in the lower part of the window within Postman. Here, you'll find information such as the HTTP status code, response headers, and the response body, which often contains the data provided by the API. This step allows you to examine the outcome of your API request.
+
+Step 8: Test Other Endpoints
+- Test the previously described steps with different endpoints, such as 'printName,' 'updateName,' or 'deleteName.' Customize the payloads as required to test a variety of API functionalities. This flexibility allows you to assess and interact with diverse aspects of the API for comprehensive testing.
+Provide code examples or instructions on how to use your API. 
 
 ## License
 
-
-Mention the
-license under which your API is distributed.
-
-
- 
-
+No License. For Educational Purposes Only.
 
 ## Contributors
 
-
-List
-contributors or give credit to any external libraries or resources used.
-
-
- 
-
+Dennis Loren P. Tacubanza
+Ram Adrian N. Gacutan
+Prof. Manny R. Hortizuela
 
 ## Contact
-Information
 
+Name: Dennis Loren P. Tacubanza
+Email: dennisloren.tacubanza@student.dmmmsu.edu.ph
+Contact:
 
-Include contact
-information for inquiries or support.
+Name: Ram Adrian N. Gacutan
+Email: ramadrian.gacutan@student.dmmmsu.edu.ph
+Contact: 09686769701
