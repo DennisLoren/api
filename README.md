@@ -14,26 +14,13 @@ The primary purpose of this API is to provide educational institutions and platf
 
 A simple Student Name Management API typically involves basic operations to manage and retrieve information about students, specifically their first name and last name. Below are the key features of such an API, along with brief descriptions:
 
-a. Student Creation
-  This feature allows you to add new students to the system. You can provide the first name and last name of the student, creating a new student record in the database.
+a. Add Student Name: This feature allows you to add new students to the system. You can provide the first name and last name of the student, creating a new student record in the database.
 
-b. Student Retrieval
-  With this feature, you can retrieve student information. This is is essential for accessing and displaying student details when needed.
+b. Student Retrieval: With this feature, you can retrieve student information. This is is essential for accessing and displaying student details when needed.
   
-c. Update Student Names
-   This feature enables you to modify the first name and last name of a student in the system. It's useful for handling scenarios like name changes or corrections in the student records.
+c. Update Student Name: This feature enables you to modify the first name and last name of a student in the system. It's useful for handling scenarios like name changes or corrections in the student records.
 
-d. Delete Student
-  Delete Student allows you to remove a student's record from the database based on their ID. It's a critical feature for managing student data and maintaining data integrity.
-
-e. Search and Filter
-  You can search and filter students based on criteria like their first name, last name, or a combination of both. This functionality helps in locating specific students within a large dataset.
-
-f. List Students
-   This feature provides an overview of all students in the database, showing their first names and last names. It's a helpful way to see the complete list of students.
-
-g. Error Handling
-   Error Handling is essential for providing clear error messages and status codes in case of invalid requests or server issues. It enhances the API's usability and reliability.
+d. Delete Student Name: Delete Student allows you to remove a student's record from the database based on their ID. It's a critical feature for managing student data and maintaining data integrity.
    
 ## API Endpoints
 Here are the API endpoints for the Student Name Management:
