@@ -164,16 +164,16 @@ No License. For Educational Purposes Only.
 
 ## Contributors
 
-Dennis Loren P. Tacubanza
-Ram Adrian N. Gacutan
-Prof. Manny R. Hortizuela
+- Dennis Loren P. Tacubanza
+- Ram Adrian N. Gacutan
+- Prof. Manny R. Hortizuela
 
 ## Contact
 
 Name: Dennis Loren P. Tacubanza
-Email: dennisloren.tacubanza@student.dmmmsu.edu.ph
-Contact: 09103026737
+- Email: dennisloren.tacubanza@student.dmmmsu.edu.ph
+- Contact: 09103026737
 
 Name: Ram Adrian N. Gacutan
-Email: ramadrian.gacutan@student.dmmmsu.edu.ph
-Contact: 09686769701
+- Email: ramadrian.gacutan@student.dmmmsu.edu.ph
+- Contact: 09686769701
