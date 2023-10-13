@@ -172,7 +172,7 @@ Prof. Manny R. Hortizuela
 
 Name: Dennis Loren P. Tacubanza
 Email: dennisloren.tacubanza@student.dmmmsu.edu.ph
-Contact:
+Contact: 09103026737
 
 Name: Ram Adrian N. Gacutan
 Email: ramadrian.gacutan@student.dmmmsu.edu.ph
